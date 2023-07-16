@@ -18,8 +18,8 @@ export class Content extends Component {
             this.setState({
                 isLoaded: true,
                 posts: savedPosts,
-            })
-        }, 2000)
+            }, 2000)
+        }, [])
     }
 
     handleChange = (e) => {
